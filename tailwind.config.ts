@@ -10,8 +10,13 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+<<<<<<< HEAD
         body: ['"PT Sans"', 'sans-serif'],
         headline: ['"PT Sans"', 'sans-serif'],
+=======
+        body: ["'PT Sans'", 'sans-serif'],
+        headline: ["'Alegreya'", 'serif'],
+>>>>>>> a839c04 (Initial prototype)
         code: ['monospace'],
       },
       colors: {
