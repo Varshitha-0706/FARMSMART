@@ -14,7 +14,7 @@ export function Header({ farmerName }: HeaderProps) {
         <div className="flex items-center gap-3">
           <Sprout className="h-8 w-8 text-primary" />
           <h1 className="text-2xl font-bold font-headline text-primary">
-            Krishi Sahayak
+            Farmsmart
           </h1>
         </div>
         <div className="flex items-center gap-4">

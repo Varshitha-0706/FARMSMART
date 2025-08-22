@@ -8,6 +8,7 @@ import { HealthSummary } from "@/components/dashboard/health-summary";
 import { MarketWatch } from "@/components/dashboard/market-watch";
 import { AnalysisHistory } from "@/components/dashboard/analysis-history";
 import { FieldLayout } from "@/components/dashboard/field-layout";
+import { WeatherUpdates } from "@/components/dashboard/weather-updates";
 import type { AnalysisResult, Farmer } from "@/types";
 
 export default function Home() {
@@ -42,6 +43,7 @@ export default function Home() {
           <div className="lg:col-span-1 space-y-6">
             <HealthSummary history={analysisHistory} />
             <MarketWatch cropType={farmer.cropType} />
+            <WeatherUpdates district={farmer.district} />
             <FieldLayout history={analysisHistory} />
           </div>
         </div>

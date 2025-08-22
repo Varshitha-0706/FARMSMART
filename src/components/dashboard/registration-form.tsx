@@ -63,7 +63,7 @@ export function RegistrationForm({ onRegister }: RegistrationFormProps) {
           <Sprout className="h-10 w-10 text-primary-foreground" />
         </div>
         <CardTitle className="text-3xl font-headline text-primary">
-          Krishi Sahayak
+          Farmsmart
         </CardTitle>
         <CardDescription>
           Register to get started with AI-powered crop monitoring and market

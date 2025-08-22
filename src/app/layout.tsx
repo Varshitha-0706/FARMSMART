@@ -3,7 +3,7 @@ import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: "Krishi Sahayak",
+  title: "Farmsmart",
   description:
     "AI-Powered Field Monitoring & Market Advisory System for Farmers",
 };
